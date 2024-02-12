@@ -82,3 +82,65 @@ body {
   font-weight: bold;
   padding-left: 15px;
 }
+/* lists */
+.ingre {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+}
+.ingre h2 {
+  color: var(--Nutmeg);
+  font-family: "Young Serif", serif;
+  font-weight: normal;
+}
+.ingre ul {
+  color: var(--Nutmeg);
+  line-height: 40px;
+  padding: 20px;
+  padding-bottom: 0px;
+  font-family: "Outfit", sans-serif;
+}
+.ingre ul span {
+  color: var(--Wenge-Brown);
+  margin-left: 15px;
+}
+hr {
+  width: 90%;
+  color: rgba(128, 128, 128, 0.214);
+  background-color: rgba(128, 128, 128, 0.139);
+  margin: 0 auto;
+  border-style: solid;
+}
+/* ordered lists: */
+.ingre ol {
+  color: var(--Nutmeg);
+  font-family: "Outfit", sans-serif;
+  padding-left: 35px;
+  font-weight: bold;
+}
+
+.ingre ol li {
+  padding: 5px;
+}
+.ingre ol li p {
+  color: var(--Wenge-Brown);
+  font-weight: 500;
+  word-spacing: 2px;
+}
+.nut {
+  background-color: antiquewhite;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.nut h2 {
+  font-family: "Young Serif", serif;
+  font-weight: normal;
+  color: var(--Nutmeg);
+}
+.nut p {
+  font-family: "Outfit", sans-serif;
+}
+table {
+}
