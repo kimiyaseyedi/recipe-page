@@ -128,7 +128,6 @@ hr {
   word-spacing: 2px;
 }
 .nut {
-  background-color: antiquewhite;
   padding: 20px 50px;
   display: flex;
   flex-direction: column;
@@ -142,5 +141,20 @@ hr {
 .nut p {
   font-family: "Outfit", sans-serif;
 }
-table {
+table div {
+  background-color: aquamarine !important;
+}
+table div tr {
+  border-bottom: 1px solid grey;
+}
+table tr td {
+  padding: 15px;
+  font-family: "Outfit", sans-serif;
+  color: var(--Wenge-Brown);
+}
+table tr td:nth-child(2) {
+  padding: 15px;
+  color: var(--Nutmeg);
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
 }
